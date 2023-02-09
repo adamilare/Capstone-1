@@ -61,7 +61,7 @@ Clone this repository to your desired folder:
 - GitHub: [@githubhandle](https://github.com/adamilare)
 - Twitter: [@twitterhandle](https://twitter.com/mailtodare)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/adamilare)
-- GitUp Page: [Portfolio](https://adamilare.github.io/My-Portfolio/)
+- GitUp Page: [Capstone-1](https://adamilare.github.io/Capstone-1/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
