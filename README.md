@@ -15,7 +15,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 My-Portfolio <a name="about-project"></a>
+# 📖 Capstone 1 <a name="about-project"></a>
 
 > Capstone 1 - Community Spark 2023
 
