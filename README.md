@@ -56,7 +56,7 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Damilare Adepoju**
 
 - GitHub: [@githubhandle](https://github.com/adamilare)
 - Twitter: [@twitterhandle](https://twitter.com/mailtodare)
