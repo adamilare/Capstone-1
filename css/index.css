@@ -25,7 +25,8 @@ body {
   font-family: var(--font-latio);
 }
 
-.desktop {
+.desktop,
+.speaker-item.desktop {
   display: none;
 }
 
@@ -293,7 +294,7 @@ footer img {
 }
 
 .prog-item:hover {
-  border-color: var(--color-f);
+  border-color: var(--color-2);
 }
 
 .prog-item > div {
@@ -302,6 +303,7 @@ footer img {
 
 .prog-item > div i {
   color: var(--color-2);
+  width: 30px;
 }
 
 #programs-list .prog-item span {
@@ -309,6 +311,7 @@ footer img {
   color: var(--color-1);
   font-weight: 600;
   font-size: 20px;
+  width: 100px;
 }
 
 #programs button {
@@ -541,7 +544,8 @@ footer,
     display: none !important;
   }
 
-  .desktop {
+  .desktop,
+  .speaker-item.desktop {
     width: 100%;
     display: flex;
   }
@@ -599,6 +603,8 @@ footer,
     background-color: #f7f7f7;
     border: 1px solid var(--color-f);
     border-radius: 2px;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .menu-left {
@@ -622,6 +628,10 @@ footer,
     gap: 40px;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .prog-item span {
+    text-align: center;
   }
 
   #intro > span:first-child {
