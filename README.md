@@ -72,7 +72,7 @@ The template adapted for the project is for an event program. Some of its conten
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link - N/A]()
+- [Live Demo](https://adamilare.github.io/Capstone-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,25 +92,32 @@ Clone this repository to your desired folder on your local machine
 
 ### Install
 
-Install this project with:
+The projects incorporate some linters check, to get them running on your local system follow these below;
+1. `.github/workflows/linters.yml` is already to project, this is used by Github to run tests on the repo.
+2. To install Webhint linters run:
+ - `npm init -y` initalize the project and instal Node packages.
+ - `npm install --save-dev hint@7.x`
+ - `npx hint .` to run the test.
+3. To install Stylelint linters run:
+ - `npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`
+ - `npx stylelint "**/*.{css,scss}" --fix" to run the test.
+4. To Install ESLint run:
+ - `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x`
+ - `npx eslint . --fix` to run the test
 
 ### Usage
 
-To run the project, execute the following command:
-
-N/A
+To run the project, clone the repository to your local and launch through Live Server on VScode
 
 ### Run tests
 
-To run tests, run the following command:
-
-N/A
+Follow the procedures under [Install](#install) to run some of the included linter tests.
 
 ### Deployment
 
 You can deploy this project using:
 
-[Github Page] (https://pages.github.com)
+ - [Github Page](https://pages.github.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,9 +134,6 @@ You can deploy this project using:
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
 - Implement Registration Form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -150,7 +154,8 @@ If you like this project please give it a thumb up.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my fellow coding partners;
+I would like to thank Cindy Shin for her original design of Creative Commons Global Summit 2015, as it served as an inspiration for this project.
+[Original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
