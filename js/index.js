@@ -64,7 +64,7 @@ function speakers() {
     const {
       name, title, about, image,
     } = speakersData[i];
-    contents += `<div class="speaker-item ${i > 1 ? 'desktop' : ''}">
+    contents += `<div class="speaker-item ${i > 1 ? 'extra desktop' : ''}">
             <div class="speaker-img">
                 <span class="square-cap"></span>
                 <img src="${image}"></img>
@@ -88,11 +88,19 @@ function makeSpeakers() {
 
 const showMore = document.getElementById('more-speakers');
 showMore.onclick = () => {
-  showMore.style.display = 'none';
-  const items = document.querySelectorAll('.speaker-item');
-  items.forEach((item) => {
-    item.classList.remove('desktop');
-  });
+  const context = showMore.textContent;
+  const items = document.querySelectorAll('.speaker-item.extra');
+  if (context.includes('Show More')) {
+    showMore.innerHTML = 'Show Less <i class="fa-solid fa-chevron-up"></i>';
+    items.forEach((item) => {
+      item.classList.remove('desktop');
+    });
+  } else {
+    showMore.innerHTML = 'Show More <i class="fa-solid fa-chevron-down"></i>';
+    items.forEach((item) => {
+      item.classList.add('desktop');
+    });
+  }
 };
 
 window.onload = () => {
