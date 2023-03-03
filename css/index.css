@@ -190,6 +190,7 @@ h1 {
 
 #intro h1 {
   background: url(/images/mask-h1.jpg) 0 0 / cover no-repeat;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
