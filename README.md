@@ -30,7 +30,7 @@
 
 # 📖 Capstone 1 <a name="about-project"></a>
 
-**Capstone 1** is part of introductory projects in Microverse software development program.
+>**Capstone 1** is part of introductory projects in Microverse software development program.
 The template adapted for the project is for an event program. Some of its contents were redacted as part of the provided guidlines.
 
 ## 🛠 Built With <a name="built-with"></a>
